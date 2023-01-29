@@ -1,0 +1,24 @@
+.cards-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-evenly;
+    justify-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+body{
+    background-color: #202020;
+}
+.link{
+    text-decoration: none;
+    width: 10vw;
+    margin: 0 auto;
+}
+.container{
+    margin: 0 auto
+}
+.linked{
+    text-decoration: none;
+    color: #ccc
+}
