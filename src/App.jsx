@@ -7,15 +7,9 @@ import { Router } from "./Router";
 
 
 function App() {
-  const [count, setCount] = useState(0);
-
-
-  useEffect(() => {
-    const data = async () => {
-      const res = await axios.get("");
-    };
-  }, []);
-
+   
+  console.log("CerealSplash");
+  
   return (
     <Context>
       <Router />
